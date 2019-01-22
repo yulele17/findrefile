@@ -1,0 +1,9 @@
+F:\winform\findrefile\findrefile\bin\Debug\findrefile.exe.config
+F:\winform\findrefile\findrefile\bin\Debug\findrefile.exe
+F:\winform\findrefile\findrefile\bin\Debug\findrefile.pdb
+F:\winform\findrefile\findrefile\obj\Debug\findrefile.csprojResolveAssemblyReference.cache
+F:\winform\findrefile\findrefile\obj\Debug\findrefile.Form1.resources
+F:\winform\findrefile\findrefile\obj\Debug\findrefile.Properties.Resources.resources
+F:\winform\findrefile\findrefile\obj\Debug\findrefile.csproj.GenerateResource.Cache
+F:\winform\findrefile\findrefile\obj\Debug\findrefile.exe
+F:\winform\findrefile\findrefile\obj\Debug\findrefile.pdb
