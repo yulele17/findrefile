@@ -387,6 +387,13 @@ namespace findrefile
             public List<string> DeletedPaths;
         }
 
+        // ===================== 帮助页 =====================
+        private void buttonHelp_Click(object sender, EventArgs e)
+        {
+            using (var help = new HelpForm())
+                help.ShowDialog(this);
+        }
+
         // ===================== 辅助 =====================
         private void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {

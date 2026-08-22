@@ -133,7 +133,9 @@
             this.toolCancel,
             this.toolDelete,
             this.toolStripSeparator1,
-            this.toolPermanent});
+            this.toolPermanent,
+            this.toolStripSeparator2,
+            this.toolHelp});
             this.toolStrip1.Location = new System.Drawing.Point(0, 42);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(8, 3, 0, 3);
@@ -182,6 +184,20 @@
             this.toolPermanent.Name = "toolPermanent";
             this.toolPermanent.Size = new System.Drawing.Size(73, 22);
             this.toolPermanent.Text = "永久删除";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolHelp
+            // 
+            this.toolHelp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolHelp.Font = new System.Drawing.Font("Microsoft YaHei", 9.5F);
+            this.toolHelp.Name = "toolHelp";
+            this.toolHelp.Size = new System.Drawing.Size(37, 22);
+            this.toolHelp.Text = "帮助";
+            this.toolHelp.Click += new System.EventHandler(this.buttonHelp_Click);
             // 
             // progressBar（细进度条）
             // 
@@ -311,6 +327,8 @@
         private System.Windows.Forms.ToolStripButton toolDelete;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolPermanent;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripButton toolHelp;
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
